@@ -1,0 +1,10 @@
+[package]
+name = "ludum-dare-44"
+version = "0.1.0"
+description = "Ludum Dare 44"
+repository = "git@github.com:mysterycommand/ludum-dare-44.git"
+authors = ["Matt Hayes <matt@mysterycommand.com>"]
+edition = "2018"
+
+[dependencies]
+amethyst = "0.10.0"
