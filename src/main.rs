@@ -13,10 +13,7 @@ impl SimpleState for Example {}
 fn main() -> amethyst::Result<()> {
     amethyst::start_logger(Default::default());
 
-    let path = format!(
-        "{}/resources/display_config.ron",
-        application_root_dir()
-    );
+    let path = format!("{}/resources/display_config.ron", application_root_dir());
     let config = DisplayConfig::load(&path);
 
     let pipe = Pipeline::build().with_stage(
